@@ -1,4 +1,6 @@
 CREATE TABLE "restaurant" (
-    "id" INT PRIMARY KEY,
-    "location" VARCHAR(255)
+    "id" SERIAL PRIMARY KEY,
+    "location" VARCHAR(50)
 );
+
+

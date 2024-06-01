@@ -1,5 +1,5 @@
 CREATE TABLE "dishPrices" (
-    "id" INT PRIMARY KEY,
+    "id" SERIAL PRIMARY KEY,
     "priceDate" DATE,
     "costPrice" FLOAT,
     "sellingPrice" FLOAT,

@@ -1,4 +1,4 @@
 CREATE TABLE "stock" (
-    "id" INT PRIMARY KEY,
+    "id" SERIAL PRIMARY KEY,
     "avaibleQty" FLOAT
 )
